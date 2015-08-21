@@ -19,7 +19,7 @@ namespace BOL
         public string IDNumber { get; set; } //saidentifikacio nomeri
         public string Role { get; set; }
         public string Password { get; set; }
-        public ICollection<Invoice> Invoice { get; set; }
+        public virtual ICollection<Invoice> Invoice { get; set; }
 
         public Client()
         {

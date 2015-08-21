@@ -23,7 +23,7 @@ namespace BOL
         public string DeliveryDate { get; set; }
 
         public string ContractNumber { get; set; }
-        public Client Client { get; set; }
+        public virtual Client Client { get; set; }
 
         public string RecieverFirstName { get; set; }
         public string RecieverLastName { get; set; }
